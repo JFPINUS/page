@@ -1,0 +1,1310 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Satisfy&display=swap');
+
+
+.float{
+  width: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 5px;
+}
+
+.float:hover{
+    width: 55px;
+    
+}
+body{
+    background: #262A10;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+/*header phone*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkgoldenrod; 
+    height: 100%;
+    width: 100vw;
+}
+
+.head{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+} 
+
+img.madera1{
+    display: inline-block;
+    width: 100px;
+}
+
+
+.h1 { 
+    display: inline-block;
+    text-align: center;
+    font-family: satisfy;  
+    font-size: 10px;
+    text-decoration: none;
+    color:white;
+    flex-grow: 1;
+    
+}
+
+img.logo{
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    border-radius: 23px;
+    flex-grow: 1;
+}
+.logo:hover{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 23px; 
+    flex-grow: 1;  
+}
+
+
+/*nav phone*/
+
+nav {
+    display:flex;
+    background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    justify-content: center;
+    gap: 1em;
+    padding: 8px;
+    flex-grow: 1;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+}
+
+nav a:hover{
+    background: rgba(255, 255, 255, 0.164);
+    color: darkgoldenrod;
+    flex-grow: 1;
+
+}
+
+/* portada phone*/
+
+.portada{
+    display: block;
+    width: 100vw;
+    box-shadow: 7px 13px 37px #000;
+}
+
+/* video phone*/
+
+.section-v{
+    border: 10px solid #283618;
+    width: 90vw;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 20px;
+    box-shadow: 7px 13px 37px #000;
+}
+    
+
+.video{ 
+    flex-grow: 1;
+    flex-shrink: 0;   
+    width: 220px;
+    height: 150PX;  
+}
+/*ARTICLE phone*/
+
+article{
+    background: #283618;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.h2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+   
+}
+
+p.article{ 
+    color: white;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+   
+}
+
+/*footer phone*/
+
+    
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background: #283618;
+    width: 100vw;
+    height: 100px;
+    margin-top: 20px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+section.social{
+   display: flex;
+   justify-content: center;
+   flex-grow: 1;
+   gap: 0.5em;
+   
+}
+
+
+.tw {
+    width: 30px;
+    height: 30px;  
+    flex-grow: 1;
+}
+.tw:hover{
+    width: 35px;
+    height: 35px; 
+
+}
+
+
+.fb {
+    width: 30px;
+    height: 30px;
+    flex-grow: 1;  
+}
+.fb:hover {
+    width: 35px;
+    height: 35px; 
+}
+
+
+.in {
+    width: 30px;
+    height: 30px; 
+    flex-grow: 1;
+}
+.in:hover {
+    width: 35px;
+    height: 35px; 
+}
+
+.ins {
+    width: 30px;
+    height: 30px; 
+    flex-grow: 1;
+}
+.ins:hover {
+    width: 35px;
+    height: 35px; 
+}
+
+
+.wh {
+    width: 30px;
+    height: 30px; 
+    flex-grow: 1;
+}
+.wh:hover {
+    width: 35px;
+    height: 35px; 
+}
+
+
+.logo_f{
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    border-radius: 23px;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.logo_f:hover{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 23px; 
+    flex-grow: 1;  
+}
+  
+
+/*copy right phone*/
+
+
+.derechos{
+    margin-top: 20px;
+    background:darkolivegreen;
+    display:flex;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    flex-grow: 1;
+    
+}
+
+.derechos p{
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+div.copy{
+    flex-grow: 1;
+    
+}
+
+.logoj{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 30px;
+    height: 30px;
+}
+
+/* tablets */
+
+@media screen and (min-width: 768px){
+     
+    /*header tablet*/
+
+.float{
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+}
+      
+.float:hover{
+    width: 55px;
+          
+} 
+.head{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+} 
+
+.h1 { 
+    display: inline-block;
+    text-align: left;
+    font-family: satisfy;  
+    font-size: 1.5em;
+    text-decoration: none;
+    color:white;
+    flex-grow: 1;
+    margin-left: 10px;
+    
+}
+
+img.logo{
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    border-radius: 23px;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.logo:hover{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 23px; 
+    flex-grow: 1;  
+}
+
+img.madera1{
+    display: inline-block;
+    width: 150px;
+}
+
+
+/*nav tablet*/
+
+nav {
+    display:flex;
+    background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    justify-content: center;
+    gap: 1.2em;
+    padding: 12px;
+    flex-grow: 1;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+nav a:hover{
+    background: rgba(255, 255, 255, 0.164);
+    color: darkgoldenrod;
+    flex-grow: 1;
+}
+
+/* portada tablet*/
+
+.portada{
+    display: block;
+    width: 100vw;
+   
+
+}
+
+.section-v{
+    margin-top: 30px;
+}
+
+.video{ 
+    flex-grow: 1;
+    flex-shrink: 0;   
+    width: 520px;
+    height: 400PX;  
+}
+
+/*ARTICLE tablet*/
+
+article{
+    background: #283618;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.h2{
+    color: white;
+    font-size: 30px;
+    text-align:center;
+    height: 50px;
+   padding-top: 8px;
+}
+
+p.article{ 
+    color: white;
+    text-align:justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 10px 15px;
+   
+}
+
+/*footer tablets */
+
+    
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1;
+    background: #283618;
+    width: 100vw;
+    height: 150px;
+    margin-top: 30px;
+}
+
+section.social{
+   display: flex;
+   justify-content: end;
+   flex-grow: 1;
+   gap: 1em;
+   margin-right: 20px; 
+}
+
+.tw {
+    width: 50px;
+    height: 50px;  
+    flex-grow: 1;
+}
+.tw:hover{
+    width: 55px;
+    height: 55px; 
+
+}
+
+
+.fb {
+    width: 50px;
+    height: 50px;
+    flex-grow: 1;  
+}
+.fb:hover {
+    width: 55px;
+    height: 55px; 
+}
+
+
+.in {
+    width: 50px;
+    height: 50px; 
+    flex-grow: 1;
+}
+.in:hover {
+    width: 55px;
+    height: 55px; 
+}
+
+.ins {
+    width: 50px;
+    height: 50px; 
+    flex-grow: 1;
+}
+.ins:hover {
+    width: 55px;
+    height: 55px; 
+}
+
+.wh {
+    width: 50px;
+    height: 50px; 
+    margin-right: 20px;
+    
+}
+.wh:hover {
+    width: 55px;
+    height: 55px; 
+}
+
+
+.logo_f{
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    border-radius: 23px;
+    flex-grow: 1;
+    margin: 20px;
+}
+.logo_f:hover{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 23px; 
+    flex-grow: 1;  
+}
+  
+
+/*copy right tablet*/
+
+
+.derechos{
+    margin-top: 30px;
+    background:darkolivegreen;
+    display:flex;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    flex-grow: 1;
+    
+}
+
+.derechos p{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+}
+div.copy{
+    flex-grow: 1;
+    
+}
+
+.logoj{
+    flex-grow: 1;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+}
+.box{
+    width: 100px;
+} 
+}
+
+@media screen and (min-width: 1024px){
+  
+    
+.float{
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+}
+      
+.float:hover{
+    width: 85px;
+          
+}    
+    /*header laptop*/
+
+    
+.head{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+} 
+
+.h1 { 
+    display: inline-block;
+    text-align: left;
+    font-family: satisfy;  
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    flex-grow: 1;
+    margin-left: 17px;
+    
+}
+
+img.logo{
+    display: inline-block;
+    width: 170px;
+    height: 145px;
+    border-radius: 30px;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.logo:hover{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 30px; 
+    flex-grow: 1;  
+}
+
+img.madera1{
+    display: inline-block;
+    width: 240px;
+}
+
+
+/*nav laptop*/
+
+nav {
+    display:flex;
+    background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    justify-content: center;
+    gap: 1.2em;
+    padding: 25px;
+    flex-grow: 1;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    flex-grow: 1;
+}
+
+nav a:hover{
+    background: rgba(255, 255, 255, 0.164);
+    color: darkgoldenrod;
+    flex-grow: 1;
+}
+
+/* portada laptop*/
+
+
+.portada{
+    display: block;
+    width: 100vw;  
+}
+
+.section-v{
+    margin-top: 40px;
+}
+
+.video{ 
+    flex-grow: 1;
+    flex-shrink: 0;   
+    width: 570px;
+    height: 450PX;  
+}
+
+/*ARTICLE laptop*/
+
+article{
+    background: #283618;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.h2{
+    color: white;
+    font-size: 50px;
+    text-align:center;
+    height: 75px;
+}
+
+p.article{ 
+    color: white;
+    text-align:justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding: 25px 30px;
+   
+}
+
+/*footer laptop */
+
+    
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1;
+    background: #283618;
+    width: 100vw;
+    height: 170px;
+    margin-top: 40px;
+}
+
+section.social{
+   display: flex;
+   justify-content: end;
+   flex-grow: 1;
+   gap: 1em;
+   margin-right: 20px; 
+}
+
+.tw {
+    width: 60px;
+    height: 60px;  
+    flex-grow: 1;
+}
+.tw:hover{
+    width: 65px;
+    height: 65px; 
+
+}
+
+
+.fb {
+    width: 60px;
+    height: 60px;
+    flex-grow: 1;  
+}
+.fb:hover {
+    width: 65px;
+    height: 65px; 
+}
+
+
+.in {
+    width: 60px;
+    height: 60px; 
+    flex-grow: 1;
+}
+.in:hover {
+    width: 65px;
+    height: 65px; 
+}
+
+
+.ins {
+    width: 60px;
+    height: 60px; 
+    flex-grow: 1;
+}
+.ins:hover {
+    width: 65px;
+    height: 65px; 
+}
+
+
+.wh {
+    width: 60px;
+    height: 60px; 
+    margin-right: 20px;
+    
+}
+.wh:hover {
+    width: 65px;
+    height: 65px; 
+}
+
+
+.logo_f{
+    display: inline-block;
+    width: 170px;
+    height: 145px;
+    border-radius: 30px;
+    flex-grow: 1;
+    margin: 20px;
+}
+.logo_f:hover{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 30px; 
+    flex-grow: 1;  
+}
+  
+
+/*copy right laptop*/
+
+
+.derechos{
+    margin-top: 40px;
+    background:darkolivegreen;
+    display:flex;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    flex-grow: 1;
+    
+}
+
+.derechos p{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+}
+div.copy{
+    flex-grow: 1;
+    
+}
+
+.logoj{
+    flex-grow: 1;
+    width: 50px;
+    height: 50px;
+    margin-left: 220px;
+}
+.box{
+    width: 230px;
+} 
+}
+
+@media screen and (min-width: 1440px){
+  
+    
+.float{
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+}
+          
+.float:hover{
+    width: 85px;
+} 
+
+ /*header laptop big*/
+    
+        
+.head{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 180px;      
+} 
+    
+.h1 { 
+    display: inline-block;
+    text-align: left;
+    font-family: satisfy;  
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    flex-grow: 1;
+    margin-left: 17px;
+        
+}
+    
+img.logo{
+    display: inline-block;
+    width: 170px;
+    height: 145px;
+    border-radius: 30px;
+    flex-grow: 1;
+    margin-left: 70px;
+    }
+.logo:hover{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 30px; 
+    flex-grow: 1;  
+}
+    
+img.madera1{
+    display: inline-block;
+    width: 320px;
+    margin: 30px;
+}
+    
+    
+/*nav laptop*/
+    
+    nav {
+        display:flex;
+        background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        justify-content: center;
+        gap: 0px;
+        padding: 30px;
+        flex-grow: 1;
+    }
+    
+    nav a {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        flex-grow: 1;
+        padding: 15px 15px;
+
+    }
+    
+    nav a:hover{
+        background: rgba(255, 255, 255, 0.164);
+        color: darkgoldenrod;
+        flex-grow: 1;
+    }
+    
+    /* portada laptop*/
+    
+    .portada{
+        display: block;
+        width: 100vw;
+       
+    
+    }
+
+    .section-v{
+        margin-top: 100px;
+    }
+    
+    .video{ 
+        flex-grow: 1;
+        flex-shrink: 0;   
+        width: 770px;
+        height: 650PX;  
+    }
+    /*ARTICLE laptop*/
+    
+    article{
+        background: #283618;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .h2{
+        color: white;
+        font-size: 50px;
+        text-align:center;
+        height: 75px;
+    }
+    
+    p.article{ 
+        color: white;
+        text-align:justify;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        padding: 35px 50px;
+       
+    }
+    
+    /*footer laptop */
+    
+        
+    .footer1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-grow: 1;
+        background: #283618;
+        width: 100vw;
+        height: 170px;
+        margin-top: 100px;
+    }
+    
+    section.social{
+       display: flex;
+       justify-content: end;
+       flex-grow: 1;
+       gap: 1em;
+       margin-right: 100px; 
+    }
+    
+    .tw {
+        width: 60px;
+        height: 60px;  
+        flex-grow: 1;
+    }
+    .tw:hover{
+        width: 65px;
+        height: 65px; 
+    
+    }
+    
+    
+    .fb {
+        width: 60px;
+        height: 60px;
+        flex-grow: 1;  
+    }
+    .fb:hover {
+        width: 65px;
+        height: 65px; 
+    }
+    
+    
+    .in {
+        width: 60px;
+        height: 60px; 
+        flex-grow: 1;
+    }
+    .in:hover {
+        width: 65px;
+        height: 65px; 
+    }
+
+    .ins {
+        width: 60px;
+        height: 60px; 
+        flex-grow: 1;
+    }
+    .ins:hover {
+        width: 65px;
+        height: 65px; 
+    }
+    
+    
+    .wh {
+        width: 60px;
+        height: 60px; 
+        margin-right: 20px;
+        
+    }
+    .wh:hover {
+        width: 65px;
+        height: 65px; 
+    }
+    
+    
+    .logo_f{
+        display: inline-block;
+        width: 170px;
+        height: 145px;
+        border-radius: 30px;
+        flex-grow: 1;
+        margin-left: 100px;
+    }
+    .logo_f:hover{
+        background: rgba(255, 255, 255, 0.075);
+        border-radius: 30px; 
+        flex-grow: 1;  
+    }
+      
+    
+    /*copy right laptop*/
+    
+    
+    .derechos{
+        margin-top: 100px;
+        background:darkolivegreen;
+        display:flex;
+        align-items: center;
+        width: 100vw;
+        height: 70px;
+        flex-grow: 1;
+        
+    }
+    
+    .derechos p{
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        text-align: center; 
+        margin-right: 30px;
+    }
+    div.copy{
+        flex-grow: 1;
+        
+    }
+    
+    .logoj{
+        flex-grow: 1;
+        width: 50px;
+        height: 50px;
+        margin-left: 430px;
+    }
+    .box{
+        width: 400px;
+    } 
+    }
+
+@media screen and (min-width: 2560px){
+    
+    .float{
+        width: 150px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        padding: 5px;
+    }
+              
+    .float:hover{
+        width: 155px;
+    } 
+    
+     /*header laptop big*/
+        
+            
+    .head{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        height: 400px;      
+    } 
+        
+    .h1 { 
+        display: inline-block;
+        text-align: left;
+        font-family: satisfy;  
+        font-size: 60px;
+        text-decoration: none;
+        color:white;
+        flex-grow: 1;
+        margin-left: 25px;
+            
+    }
+        
+    img.logo{
+        display: inline-block;
+        width: 380px;
+        height: 345px;
+        border-radius: 30px;
+        flex-grow: 1;
+        margin-left: 70px;
+        }
+    .logo:hover{
+        background: rgba(255, 255, 255, 0.075);
+        border-radius: 30px; 
+        flex-grow: 1;  
+    }
+        
+    img.madera1{
+        display: inline-block;
+        width: 500px;
+        margin: 30px;
+    }
+        
+        
+    /*nav laptop*/
+        
+        nav {
+            display:flex;
+            background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            justify-content: center;
+            gap: 0px;
+            padding: 50px;
+            flex-grow: 1;
+        }
+        
+        nav a {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: 50px;
+            flex-grow: 1;
+            padding: 15px 15px;
+    
+        }
+        
+        nav a:hover{
+            background: rgba(255, 255, 255, 0.164);
+            color: darkgoldenrod;
+            flex-grow: 1;
+        }
+        
+        /* portada laptop*/
+        
+        .portada{
+            display: block;
+            width: 100vw;
+           
+        
+        }
+        
+        /*ARTICLE laptop*/
+        
+        article{
+            background: #283618;
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+        
+        .h2{
+            color: white;
+            font-size: 100px;
+            text-align:center;
+            height: 75px;
+            padding-top: 50px;
+        }
+        
+        p.article{ 
+            color: white;
+            text-align:justify;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            padding: 75px 100px;
+           
+        }
+        
+        /*footer laptop */
+        
+            
+        .footer1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            flex-grow: 1;
+            background: #283618;
+            width: 100vw;
+            height: 400px;
+            margin-top: 100px;
+        }
+        
+        section.social{
+           display: flex;
+           justify-content: end;
+           flex-grow: 1;
+           gap: 1em;
+           margin-right: 100px; 
+        }
+        
+        .tw {
+            width: 110px;
+            height: 110px;  
+            flex-grow: 1;
+        }
+        .tw:hover{
+            width: 115px;
+            height: 115px; 
+        
+        }
+        
+        
+        .fb {
+            width: 110px;
+            height: 110px;
+            flex-grow: 1;  
+        }
+        .fb:hover {
+            width: 115px;
+            height: 115px; 
+        }
+        
+        
+        .in {
+            width: 110px;
+            height: 110px; 
+            flex-grow: 1;
+        }
+        .in:hover {
+            width: 115px;
+            height: 115px; 
+        }
+        
+        .ins {
+            width: 110px;
+            height: 110px; 
+            flex-grow: 1;
+        }
+        .ins:hover {
+            width: 115px;
+            height: 115px; 
+        }
+    
+        
+        .wh {
+            width: 110px;
+            height: 110px; 
+            margin-right: 20px;
+            
+        }
+        .wh:hover {
+            width: 115px;
+            height: 115px; 
+        }
+        
+        
+        .logo_f{
+            display: inline-block;
+            width: 350px;
+            height: 310px;
+            border-radius: 30px;
+            flex-grow: 1;
+            margin-left: 100px;
+        }
+        .logo_f:hover{
+            background: rgba(255, 255, 255, 0.075);
+            border-radius: 30px; 
+            flex-grow: 1;  
+        }
+          
+        
+        /*copy right laptop*/
+        
+        
+        .derechos{
+            margin-top: 100px;
+            background:darkolivegreen;
+            display:flex;
+            align-items: center;
+            width: 100vw;
+            height: 70px;
+            flex-grow: 1;
+            
+        }
+        
+        .derechos{
+            margin-top: 100px;
+            background:darkolivegreen;
+            display:flex;
+            align-items: center;
+            width: 100vw;
+            height: 150px;
+            flex-grow: 1;
+            
+        }
+        
+        .derechos p{
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+            text-align: center; 
+            margin-right: 30px;
+        }
+        div.copy{
+            flex-grow: 1;
+            
+        }  
+
+}
